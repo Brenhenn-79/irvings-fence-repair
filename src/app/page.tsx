@@ -222,16 +222,15 @@ export default function HomePage() {
         </div>
 
         {/* Floating quote form */}
-        <div style={{
-          position: 'absolute', right: '24px', top: '50%', transform: 'translateY(-50%)',
-          background: 'rgba(255,255,255,0.97)', backdropFilter: 'blur(20px)',
-          borderRadius: '20px', padding: '32px', width: '360px',
-          boxShadow: '0 24px 48px rgba(0,0,0,0.2)', border: '1px solid rgba(255,255,255,0.9)',
-         className="hero-float-form"
-          zIndex: 2
-        }}
+        <div className="hero-float-form animate-fade-in delay-400"
           id="quote-form"
-          className="animate-fade-in delay-400"
+          style={{
+            position: 'absolute', right: '24px', top: '50%', transform: 'translateY(-50%)',
+            background: 'rgba(255,255,255,0.97)', backdropFilter: 'blur(20px)',
+            borderRadius: '20px', padding: '32px', width: '360px',
+            boxShadow: '0 24px 48px rgba(0,0,0,0.2)', border: '1px solid rgba(255,255,255,0.9)',
+            zIndex: 2
+          }}
         >
           <ContactForm
             compact
