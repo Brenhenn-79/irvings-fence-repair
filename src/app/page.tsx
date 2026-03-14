@@ -208,7 +208,7 @@ export default function HomePage() {
               <a href="tel:+19725550190" className="btn-secondary" style={{
                 background: 'rgba(255,255,255,0.12)', borderColor: 'rgba(255,255,255,0.4)', color: 'white', padding: '15px 28px'
               }}>
-                📞 Call (972) 555-0190
+                📞 Call (972) 284-1718
               </a>
             </div>
 
