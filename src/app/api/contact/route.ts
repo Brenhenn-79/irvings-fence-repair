@@ -60,7 +60,7 @@ export async function POST(request: NextRequest) {
     //   html: `
     //     <h2>Thanks ${name}!</h2>
     //     <p>We got your fence estimate request and we'll be in touch within 2 business hours.</p>
-    //     <p>In the meantime, give us a call at (972) 555-0190 if you have any questions!</p>
+    //     <p>In the meantime, give us a call at (972) 284-1718 if you have any questions!</p>
     //     <br/>
     //     <p>– The Irving's Fence Repair Team</p>
     //   `,
