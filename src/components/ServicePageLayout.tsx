@@ -28,10 +28,10 @@ export default function ServicePageLayout({
   return (
     <>
       {/* Hero */}
-      <section style={{ position: 'relative', minHeight: '420px', height: 'auto', overflow: 'hidden' }}>
+      <section style={{ position: 'relative', minHeight: '500px', height: 'auto', overflow: 'hidden' }}>
         <Image src={heroImage} alt={heroImageAlt} fill style={{ objectFit: 'cover' }} priority />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(135deg, rgba(15,23,42,0.85), rgba(14,165,233,0.3))' }} />
-        <div style={{ position: 'relative', zIndex: 1, maxWidth: '1200px', margin: '0 auto', padding: '80px 24px 80px', minHeight: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <div style={{ position: 'relative', zIndex: 1, maxWidth: '1200px', margin: '0 auto', padding: '80px 24px 100px', minHeight: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
           <nav style={{ marginBottom: '16px', fontSize: '0.85rem', color: 'rgba(255,255,255,0.7)' }}>
             <Link href="/" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>Home</Link>
             {' → '}
