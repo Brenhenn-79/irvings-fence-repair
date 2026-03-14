@@ -58,7 +58,7 @@ export default function Footer() {
               padding: '14px 28px', borderRadius: '8px', textDecoration: 'none',
               fontSize: '1rem', border: '2px solid rgba(255,255,255,0.4)'
             }}>
-              📞 (972) 555-0190
+              📞 (972) 284-1718
             </a>
           </div>
         </div>
