@@ -109,12 +109,12 @@ export default function Navigation() {
 
             {/* CTA Buttons */}
             <div className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <a href="tel:+19725550190" style={{
+              <a href="tel:+19722841718" style={{
                 display: 'flex', alignItems: 'center', gap: '6px',
                 color: '#0EA5E9', textDecoration: 'none', fontWeight: 600,
                 fontSize: '0.9rem', fontFamily: 'var(--font-display)'
               }}>
-                📞 (972) 555-0190
+                📞 (972) 284-1718
               </a>
               <a href="/contact" className="btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>
                 Free Quote
