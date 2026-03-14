@@ -42,8 +42,8 @@ export default function ContactPage() {
       <section style={{ background: 'white', borderBottom: '1px solid #E2E8F0', padding: '24px' }}>
         <div style={{ maxWidth: '1000px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '24px', textAlign: 'center' }}>
           {[
-            { icon: '📞', label: 'Call Us', value: '(972) 555-0190', href: 'tel:+19725550190', color: '#0EA5E9' },
-            { icon: '💬', label: 'Text for Quote', value: 'Text (972) 555-0190', href: 'sms:+19725550190', color: '#14B8A6' },
+            { icon: '📞', label: 'Call Us', value: '(972) 555-0190', href: 'tel:++19722841718', color: '#0EA5E9' },
+            { icon: '💬', label: 'Text for Quote', value: 'Text (972) 555-0190', href: 'sms:+19722841718', color: '#14B8A6' },
             { icon: '✉️', label: 'Email Us', value: 'info@irvingsfencerepair.com', href: 'mailto:info@irvingsfencerepair.com', color: '#8B5CF6' },
             { icon: '🕐', label: 'Business Hours', value: 'Mon–Fri 7am–6pm · Sat 8am–4pm', href: '#', color: '#F59E0B' },
           ].map(item => (
