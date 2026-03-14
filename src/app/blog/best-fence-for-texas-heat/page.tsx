@@ -151,7 +151,7 @@ export default function BlogPostTexasHeat() {
             <div style={{ background: 'linear-gradient(135deg,#0F172A,#1E3A5F)', borderRadius: '16px', padding: '24px', textAlign: 'center' }}>
               <div style={{ fontSize: '2rem', marginBottom: '8px' }}>📞</div>
               <div style={{ fontFamily: 'var(--font-display)', color: 'white', fontWeight: 700, marginBottom: '4px' }}>Call or Text Us</div>
-              <a href="tel:+19725550190" style={{ color: '#7DD3FC', textDecoration: 'none', fontWeight: 700, fontSize: '1.1rem', display: 'block', marginBottom: '8px' }}>(972) 555-0190</a>
+              <a href="tel:+19722841718" style={{ color: '#7DD3FC', textDecoration: 'none', fontWeight: 700, fontSize: '1.1rem', display: 'block', marginBottom: '8px' }}>(972) 555-0190</a>
               <div style={{ color: '#94A3B8', fontSize: '0.82rem' }}>Mon–Fri 7am–6pm · Sat 8am–4pm</div>
             </div>
           </div>
