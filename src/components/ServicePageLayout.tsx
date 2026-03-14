@@ -56,7 +56,7 @@ export default function ServicePageLayout({
 
       {/* Main Content + Sidebar */}
       <section style={{ padding: '64px 24px', background: '#F8FAFC' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 380px', gap: '48px', alignItems: 'start' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 500px), 1fr))', gap: '32px', alignItems: 'start' }}>
           {/* Left: Content */}
           <div>
             {/* Benefits */}
@@ -89,7 +89,7 @@ export default function ServicePageLayout({
           </div>
 
           {/* Right: Sticky Form */}
-          <div id="quote" style={{ position: 'sticky', top: '90px', background: 'white', borderRadius: '20px', padding: '32px', border: '1px solid #E2E8F0', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
+          <div id="quote" style={{ position: 'sticky', top: '90px', width: '100%', background: 'white', borderRadius: '20px', padding: '32px', border: '1px solid #E2E8F0', boxShadow: '0 4px 24px rgba(0,0,0,0.08)' }}>
             <ContactForm
               title="Get Your Free Estimate"
               subtitle="Irving fence quotes — usually within 2 hours!"
