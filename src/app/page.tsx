@@ -227,7 +227,7 @@ export default function HomePage() {
           background: 'rgba(255,255,255,0.97)', backdropFilter: 'blur(20px)',
           borderRadius: '20px', padding: '32px', width: '360px',
           boxShadow: '0 24px 48px rgba(0,0,0,0.2)', border: '1px solid rgba(255,255,255,0.9)',
-          display: 'var(--hero-form-display, block)',
+         className="hero-float-form"
           zIndex: 2
         }}
           id="quote-form"
