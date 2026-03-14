@@ -1,10 +1,9 @@
-'use client'
 import type { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: "Site Map | Irving's Fence Repair – Irving TX",
-  description: "Full sitemap for Irving's Fence Repair website. Find all pages, services, blog posts, and resources for Irving, TX fence installation and repair.",
+  description: "Full sitemap for Irving's Fence Repair website.",
 }
 
 const sitemapData = [
@@ -13,11 +12,11 @@ const sitemapData = [
     color: '#0EA5E9',
     icon: '🏠',
     links: [
-      { href: '/', label: 'Home – Premier Fence Installation in Irving, TX' },
-      { href: '/about', label: 'About Irving\'s Fence Repair' },
-      { href: '/contact', label: 'Contact Us & Get a Free Quote' },
-      { href: '/blog', label: 'Fencing Blog & Tips for Irving Homeowners' },
-      { href: '/resources', label: 'Irving Fence Buying Guide (2025)' },
+      { href: '/', label: 'Home' },
+      { href: '/about', label: 'About Us' },
+      { href: '/contact', label: 'Contact & Free Quote' },
+      { href: '/blog', label: 'Fencing Blog' },
+      { href: '/resources', label: 'Resources' },
     ]
   },
   {
@@ -25,10 +24,10 @@ const sitemapData = [
     color: '#14B8A6',
     icon: '🔧',
     links: [
-      { href: '/services/privacy-fences', label: 'Privacy Fence Installation Irving TX' },
-      { href: '/services/wood-fences', label: 'Wood Fence Installation Irving TX' },
-      { href: '/services/vinyl-fences', label: 'Vinyl Fence Installation Irving TX' },
-      { href: '/services/chain-link', label: 'Chain Link Fence Irving TX' },
+      { href: '/services/privacy-fences', label: 'Privacy Fences Irving TX' },
+      { href: '/services/wood-fences', label: 'Wood Fence Installation' },
+      { href: '/services/vinyl-fences', label: 'Vinyl Fence Irving TX' },
+      { href: '/services/chain-link', label: 'Chain Link Fences' },
       { href: '/services/fence-repair', label: 'Fence Repair Irving TX' },
       { href: '/services/custom-gates', label: 'Custom Gates Irving TX' },
     ]
@@ -39,34 +38,19 @@ const sitemapData = [
     icon: '📖',
     links: [
       { href: '/blog/best-fence-for-texas-heat', label: 'Best Fence Materials for Texas Heat' },
-      { href: '/blog/privacy-fence-cost-irving', label: 'Privacy Fence Cost in Irving, TX (2025)' },
-      { href: '/blog/wood-vs-vinyl-fence', label: 'Wood vs. Vinyl Fence in Irving' },
-      { href: '/blog/fence-permit-irving-tx', label: 'Do You Need a Fence Permit in Irving, TX?' },
-      { href: '/blog/how-long-fence-installation-takes', label: 'How Long Does Fence Installation Take?' },
-      { href: '/blog/fence-maintenance-tips-texas', label: '5 Fence Maintenance Tips for Irving Homeowners' },
+      { href: '/blog/privacy-fence-cost-irving', label: 'Privacy Fence Cost in Irving TX' },
+      { href: '/blog/wood-vs-vinyl-fence', label: 'Wood vs Vinyl Fence' },
+      { href: '/blog/fence-permit-irving-tx', label: 'Fence Permit in Irving TX' },
     ]
   },
   {
-    section: 'Service Areas',
-    color: '#F59E0B',
-    icon: '📍',
-    links: [
-      { href: '/?area=irving', label: 'Fence Company Irving, TX' },
-      { href: '/?area=las-colinas', label: 'Fence Installation Las Colinas TX' },
-      { href: '/?area=valley-ranch', label: 'Fence Contractor Valley Ranch Irving TX' },
-      { href: '/?area=grand-prairie', label: 'Fence Installation Grand Prairie TX' },
-      { href: '/?area=coppell', label: 'Fence Company Coppell TX' },
-      { href: '/?area=carrollton', label: 'Fence Installation Carrollton TX' },
-    ]
-  },
-  {
-    section: 'Legal & Technical',
+    section: 'Legal',
     color: '#64748B',
     icon: '📄',
     links: [
       { href: '/privacy', label: 'Privacy Policy' },
       { href: '/terms', label: 'Terms of Service' },
-      { href: '/sitemap.xml', label: 'XML Sitemap (for search engines)' },
+      { href: '/sitemap.xml', label: 'XML Sitemap' },
     ]
   }
 ]
@@ -80,7 +64,7 @@ export default function SitemapPage() {
             Site Map
           </h1>
           <p style={{ color: '#CBD5E1', fontSize: '1rem' }}>
-            All pages on Irving's Fence Repair — your Irving, TX fence installation and repair experts.
+            All pages on Irving's Fence Repair — Irving, TX fence installation experts.
           </p>
         </div>
       </section>
@@ -107,11 +91,7 @@ export default function SitemapPage() {
                       <Link href={link.href} style={{
                         color: '#475569', textDecoration: 'none', fontSize: '0.9rem',
                         display: 'flex', alignItems: 'center', gap: '6px',
-                        transition: 'color 0.15s ease'
-                      }}
-                        onMouseEnter={e => (e.currentTarget as HTMLElement).style.color = section.color}
-                        onMouseLeave={e => (e.currentTarget as HTMLElement).style.color = '#475569'}
-                      >
+                      }}>
                         <span style={{ color: section.color, fontSize: '0.7rem' }}>▶</span>
                         {link.label}
                       </Link>
@@ -122,18 +102,14 @@ export default function SitemapPage() {
             ))}
           </div>
 
-          {/* Contact strip */}
           <div style={{
             marginTop: '48px', background: 'linear-gradient(135deg, #0EA5E9, #14B8A6)',
             borderRadius: '16px', padding: '36px', textAlign: 'center'
           }}>
             <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.5rem', color: 'white', marginBottom: '8px' }}>
-              Didn't Find What You Were Looking For?
+              Ready for Your Free Irving Fence Quote?
             </h2>
-            <p style={{ color: 'rgba(255,255,255,0.9)', marginBottom: '20px' }}>
-              Call us or get a free quote — we're happy to answer any questions about fencing in Irving.
-            </p>
-            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '20px' }}>
               <Link href="/contact" style={{ background: 'white', color: '#0EA5E9', fontFamily: 'var(--font-display)', fontWeight: 700, padding: '13px 24px', borderRadius: '8px', textDecoration: 'none' }}>
                 Get Free Quote
               </Link>
