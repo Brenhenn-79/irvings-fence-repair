@@ -51,7 +51,7 @@ export default function Footer() {
             }}>
               🚀 Get Free Quote
             </a>
-            <a href="tel:+19725550190" style={{
+            <a href="tel:+19722841718" style={{
               display: 'inline-flex', alignItems: 'center', gap: '8px',
               background: 'rgba(255,255,255,0.15)', color: 'white',
               fontFamily: 'var(--font-display)', fontWeight: 600,
@@ -84,10 +84,10 @@ export default function Footer() {
               Irving's most trusted fence installation and repair company. Serving Irving, TX and the DFW metroplex since 2010.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <a href="tel:+19725550190" style={{ color: '#0EA5E9', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
+              <a href="tel:+19722841718" style={{ color: '#0EA5E9', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
                 📞 (972) 555-0190
               </a>
-              <a href="sms:+19725550190" style={{ color: '#14B8A6', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
+              <a href="sms:+19722841718" style={{ color: '#14B8A6', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
                 💬 Text for Quick Quote
               </a>
               <a href="mailto:info@irvingsfencerepair.com" style={{ color: '#94A3B8', textDecoration: 'none', fontSize: '0.85rem' }}>
