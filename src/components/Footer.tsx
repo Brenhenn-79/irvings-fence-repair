@@ -85,7 +85,7 @@ export default function Footer() {
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <a href="tel:+19722841718" style={{ color: '#0EA5E9', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
-                📞 (972) 555-0190
+                📞 (972) 284-1718
               </a>
               <a href="sms:+19722841718" style={{ color: '#14B8A6', textDecoration: 'none', fontSize: '0.9rem', fontWeight: 600 }}>
                 💬 Text for Quick Quote
