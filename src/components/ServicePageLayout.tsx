@@ -47,7 +47,7 @@ export default function ServicePageLayout({
           </p>
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px', flexWrap: 'wrap' }}>
             <a href="#quote" className="btn-primary">Get Free Quote</a>
-            <a href="tel:+19725550190" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'white', textDecoration: 'none', fontWeight: 600, border: '2px solid rgba(255,255,255,0.35)', padding: '13px 24px', borderRadius: '8px', fontFamily: 'var(--font-display)' }}>
+            <a href="tel:+19722841718" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'white', textDecoration: 'none', fontWeight: 600, border: '2px solid rgba(255,255,255,0.35)', padding: '13px 24px', borderRadius: '8px', fontFamily: 'var(--font-display)' }}>
               📞 (972) 555-0190
             </a>
           </div>
@@ -95,10 +95,10 @@ export default function ServicePageLayout({
               subtitle="Irving fence quotes — usually within 2 hours!"
             />
             <div style={{ marginTop: '20px', paddingTop: '20px', borderTop: '1px solid #F1F5F9', textAlign: 'center' }}>
-              <a href="tel:+19725550190" style={{ color: '#0EA5E9', textDecoration: 'none', fontWeight: 700, fontFamily: 'var(--font-display)', display: 'block', marginBottom: '4px' }}>
+              <a href="tel:+19722841718" style={{ color: '#0EA5E9', textDecoration: 'none', fontWeight: 700, fontFamily: 'var(--font-display)', display: 'block', marginBottom: '4px' }}>
                 📞 (972) 555-0190
               </a>
-              <a href="sms:+19725550190" style={{ color: '#14B8A6', textDecoration: 'none', fontWeight: 600, fontSize: '0.9rem' }}>
+              <a href="sms:+19722841718" style={{ color: '#14B8A6', textDecoration: 'none', fontWeight: 600, fontSize: '0.9rem' }}>
                 💬 Text for Quick Response
               </a>
             </div>
