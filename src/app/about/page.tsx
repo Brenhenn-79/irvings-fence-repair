@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
               <Link href="/contact" className="btn-primary">Get a Free Quote</Link>
               <a href="tel:+19722841718" className="btn-secondary" style={{ borderColor: 'rgba(255,255,255,0.3)', color: 'white', background: 'transparent' }}>
-                📞 (972) 555-0190
+                📞 (972) 284-1718
               </a>
             </div>
           </div>
