@@ -67,7 +67,7 @@ export default function ContactForm({ compact = false, title, subtitle }: Contac
           Keep an eye on your inbox for a confirmation.
         </p>
         <p style={{ color: '#6B7280', fontSize: '0.9rem' }}>
-          Can't wait? Call us now: <a href="tel:+19725550190" style={{ color: '#0EA5E9', fontWeight: 600 }}>(972) 555-0190</a>
+          Can't wait? Call us now: <a href="tel:+19722841718" style={{ color: '#0EA5E9', fontWeight: 600 }}>(972) 284-1718</a>
         </p>
       </div>
     )
