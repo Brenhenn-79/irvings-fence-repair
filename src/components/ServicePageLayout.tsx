@@ -48,7 +48,7 @@ export default function ServicePageLayout({
           <div style={{ display: 'flex', gap: '16px', marginTop: '24px', flexWrap: 'wrap' }}>
             <a href="#quote" className="btn-primary">Get Free Quote</a>
             <a href="tel:+19722841718" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', color: 'white', textDecoration: 'none', fontWeight: 600, border: '2px solid rgba(255,255,255,0.35)', padding: '13px 24px', borderRadius: '8px', fontFamily: 'var(--font-display)' }}>
-              📞 (972) 555-0190
+              📞 (972) 284-1718
             </a>
           </div>
         </div>
